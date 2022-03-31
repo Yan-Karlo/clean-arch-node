@@ -1,0 +1,26 @@
+{
+  "name": "udemy-clean-arch-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && jest",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chance": "^1.1.8",
+    "jest": "^27.5.1"
+  }
+}
